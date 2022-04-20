@@ -1,0 +1,6 @@
+framework module Pods_KarimTask {
+  umbrella header "Pods-KarimTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

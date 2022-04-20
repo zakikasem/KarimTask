@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33DFB9093CEC9A1947F741DD /* Pods_KarimTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9DC4B118DC3A3BBC29EC44 /* Pods_KarimTaskTests.framework */; };
+		6EC175FB11AA0FB437AEBA75 /* Pods_KarimTask_KarimTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E9E07BA13C3CC737B4B670 /* Pods_KarimTask_KarimTaskUITests.framework */; };
+		A515B668CD883366F4EEEE58 /* Pods_KarimTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCF0612C0226300234B9595 /* Pods_KarimTask.framework */; };
+		E2947541280FF2A900992F5F /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2947540280FF2A900992F5F /* LoggedInViewController.swift */; };
 		E2BA8F45280E9E4400CE5929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA8F44280E9E4400CE5929 /* AppDelegate.swift */; };
 		E2BA8F47280E9E4500CE5929 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA8F46280E9E4500CE5929 /* SceneDelegate.swift */; };
 		E2BA8F49280E9E4500CE5929 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA8F48280E9E4500CE5929 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 		E2BA8F5C280E9E4600CE5929 /* KarimTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA8F5B280E9E4600CE5929 /* KarimTaskTests.swift */; };
 		E2BA8F66280E9E4600CE5929 /* KarimTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA8F65280E9E4600CE5929 /* KarimTaskUITests.swift */; };
 		E2BA8F68280E9E4600CE5929 /* KarimTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA8F67280E9E4600CE5929 /* KarimTaskUITestsLaunchTests.swift */; };
+		E2BA8F7A280EA22800CE5929 /* LoginOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA8F79280EA22800CE5929 /* LoginOneViewModel.swift */; };
+		E2BA8F7E280EA2F400CE5929 /* LoginOneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA8F7D280EA2F400CE5929 /* LoginOneModel.swift */; };
+		E2BA8F80280EA4D300CE5929 /* LoginOneDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA8F7F280EA4D300CE5929 /* LoginOneDataSource.swift */; };
+		E2BA8F82280EA5FB00CE5929 /* AuthenticationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA8F81280EA5FB00CE5929 /* AuthenticationRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A9DC4B118DC3A3BBC29EC44 /* Pods_KarimTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarimTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DEF2B3727F84715DF0ADDA /* Pods-KarimTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarimTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-KarimTaskTests/Pods-KarimTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DCF0612C0226300234B9595 /* Pods_KarimTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarimTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E9E07BA13C3CC737B4B670 /* Pods_KarimTask_KarimTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarimTask_KarimTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9859526B7B3A72A218773B60 /* Pods-KarimTask-KarimTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarimTask-KarimTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-KarimTask-KarimTaskUITests/Pods-KarimTask-KarimTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3B84A4CE8F845154BF32633 /* Pods-KarimTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarimTaskTests.release.xcconfig"; path = "Target Support Files/Pods-KarimTaskTests/Pods-KarimTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7AA83C03A22FF6CEE8F8B49 /* Pods-KarimTask-KarimTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarimTask-KarimTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-KarimTask-KarimTaskUITests/Pods-KarimTask-KarimTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E2947540280FF2A900992F5F /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		E2BA8F41280E9E4400CE5929 /* KarimTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarimTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BA8F44280E9E4400CE5929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2BA8F46280E9E4500CE5929 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,12 @@
 		E2BA8F61280E9E4600CE5929 /* KarimTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarimTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BA8F65280E9E4600CE5929 /* KarimTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarimTaskUITests.swift; sourceTree = "<group>"; };
 		E2BA8F67280E9E4600CE5929 /* KarimTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarimTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2BA8F79280EA22800CE5929 /* LoginOneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOneViewModel.swift; sourceTree = "<group>"; };
+		E2BA8F7D280EA2F400CE5929 /* LoginOneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOneModel.swift; sourceTree = "<group>"; };
+		E2BA8F7F280EA4D300CE5929 /* LoginOneDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOneDataSource.swift; sourceTree = "<group>"; };
+		E2BA8F81280EA5FB00CE5929 /* AuthenticationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRouter.swift; sourceTree = "<group>"; };
+		EF824247F138EF3805950703 /* Pods-KarimTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarimTask.release.xcconfig"; path = "Target Support Files/Pods-KarimTask/Pods-KarimTask.release.xcconfig"; sourceTree = "<group>"; };
+		F17E6EFB9C6B630F7B3AC290 /* Pods-KarimTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarimTask.debug.xcconfig"; path = "Target Support Files/Pods-KarimTask/Pods-KarimTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A515B668CD883366F4EEEE58 /* Pods_KarimTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DFB9093CEC9A1947F741DD /* Pods_KarimTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC175FB11AA0FB437AEBA75 /* Pods_KarimTask_KarimTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FDB8D80805A0F1EF7227B53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DCF0612C0226300234B9595 /* Pods_KarimTask.framework */,
+				93E9E07BA13C3CC737B4B670 /* Pods_KarimTask_KarimTaskUITests.framework */,
+				4A9DC4B118DC3A3BBC29EC44 /* Pods_KarimTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E294753F280FF29100992F5F /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				E2947540280FF2A900992F5F /* LoggedInViewController.swift */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
 		E2BA8F38280E9E4400CE5929 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				E2BA8F5A280E9E4600CE5929 /* KarimTaskTests */,
 				E2BA8F64280E9E4600CE5929 /* KarimTaskUITests */,
 				E2BA8F42280E9E4400CE5929 /* Products */,
+				EE63E45F3AC0013714C4D1DD /* Pods */,
+				4FDB8D80805A0F1EF7227B53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +144,11 @@
 		E2BA8F43280E9E4400CE5929 /* KarimTask */ = {
 			isa = PBXGroup;
 			children = (
+				E294753F280FF29100992F5F /* SecondView */,
+				E2BA8F74280E9F5C00CE5929 /* First Login */,
 				E2BA8F44280E9E4400CE5929 /* AppDelegate.swift */,
 				E2BA8F46280E9E4500CE5929 /* SceneDelegate.swift */,
-				E2BA8F48280E9E4500CE5929 /* ViewController.swift */,
+				E2BA8F81280EA5FB00CE5929 /* AuthenticationRouter.swift */,
 				E2BA8F4A280E9E4500CE5929 /* Main.storyboard */,
 				E2BA8F4D280E9E4600CE5929 /* Assets.xcassets */,
 				E2BA8F4F280E9E4600CE5929 /* LaunchScreen.storyboard */,
@@ -127,6 +174,62 @@
 			path = KarimTaskUITests;
 			sourceTree = "<group>";
 		};
+		E2BA8F74280E9F5C00CE5929 /* First Login */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA8F78280E9F8400CE5929 /* DataSource */,
+				E2BA8F77280E9F7300CE5929 /* view model */,
+				E2BA8F76280E9F6E00CE5929 /* Model */,
+				E2BA8F75280E9F6700CE5929 /* view */,
+			);
+			path = "First Login";
+			sourceTree = "<group>";
+		};
+		E2BA8F75280E9F6700CE5929 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA8F48280E9E4500CE5929 /* ViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E2BA8F76280E9F6E00CE5929 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA8F7D280EA2F400CE5929 /* LoginOneModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2BA8F77280E9F7300CE5929 /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA8F79280EA22800CE5929 /* LoginOneViewModel.swift */,
+			);
+			path = "view model";
+			sourceTree = "<group>";
+		};
+		E2BA8F78280E9F8400CE5929 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA8F7F280EA4D300CE5929 /* LoginOneDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		EE63E45F3AC0013714C4D1DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F17E6EFB9C6B630F7B3AC290 /* Pods-KarimTask.debug.xcconfig */,
+				EF824247F138EF3805950703 /* Pods-KarimTask.release.xcconfig */,
+				9859526B7B3A72A218773B60 /* Pods-KarimTask-KarimTaskUITests.debug.xcconfig */,
+				B7AA83C03A22FF6CEE8F8B49 /* Pods-KarimTask-KarimTaskUITests.release.xcconfig */,
+				77DEF2B3727F84715DF0ADDA /* Pods-KarimTaskTests.debug.xcconfig */,
+				A3B84A4CE8F845154BF32633 /* Pods-KarimTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2BA8F6B280E9E4600CE5929 /* Build configuration list for PBXNativeTarget "KarimTask" */;
 			buildPhases = (
+				59A28649C872594BDC94B97C /* [CP] Check Pods Manifest.lock */,
 				E2BA8F3D280E9E4400CE5929 /* Sources */,
 				E2BA8F3E280E9E4400CE5929 /* Frameworks */,
 				E2BA8F3F280E9E4400CE5929 /* Resources */,
+				12CF8374296373866FE4D68D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2BA8F6E280E9E4600CE5929 /* Build configuration list for PBXNativeTarget "KarimTaskTests" */;
 			buildPhases = (
+				77888E6A735027BC8A4FED9C /* [CP] Check Pods Manifest.lock */,
 				E2BA8F53280E9E4600CE5929 /* Sources */,
 				E2BA8F54280E9E4600CE5929 /* Frameworks */,
 				E2BA8F55280E9E4600CE5929 /* Resources */,
@@ -169,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2BA8F71280E9E4600CE5929 /* Build configuration list for PBXNativeTarget "KarimTaskUITests" */;
 			buildPhases = (
+				6AB1D958BED5C6594A5BC083 /* [CP] Check Pods Manifest.lock */,
 				E2BA8F5D280E9E4600CE5929 /* Sources */,
 				E2BA8F5E280E9E4600CE5929 /* Frameworks */,
 				E2BA8F5F280E9E4600CE5929 /* Resources */,
+				14073FB658DF8442E2296347 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +361,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12CF8374296373866FE4D68D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarimTask/Pods-KarimTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarimTask/Pods-KarimTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KarimTask/Pods-KarimTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14073FB658DF8442E2296347 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarimTask-KarimTaskUITests/Pods-KarimTask-KarimTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarimTask-KarimTaskUITests/Pods-KarimTask-KarimTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KarimTask-KarimTaskUITests/Pods-KarimTask-KarimTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A28649C872594BDC94B97C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarimTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AB1D958BED5C6594A5BC083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarimTask-KarimTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77888E6A735027BC8A4FED9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarimTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2BA8F3D280E9E4400CE5929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E2BA8F49280E9E4500CE5929 /* ViewController.swift in Sources */,
+				E2BA8F82280EA5FB00CE5929 /* AuthenticationRouter.swift in Sources */,
+				E2BA8F7E280EA2F400CE5929 /* LoginOneModel.swift in Sources */,
+				E2BA8F7A280EA22800CE5929 /* LoginOneViewModel.swift in Sources */,
+				E2BA8F80280EA4D300CE5929 /* LoginOneDataSource.swift in Sources */,
 				E2BA8F45280E9E4400CE5929 /* AppDelegate.swift in Sources */,
 				E2BA8F47280E9E4500CE5929 /* SceneDelegate.swift in Sources */,
+				E2947541280FF2A900992F5F /* LoggedInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +650,7 @@
 		};
 		E2BA8F6C280E9E4600CE5929 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17E6EFB9C6B630F7B3AC290 /* Pods-KarimTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +678,7 @@
 		};
 		E2BA8F6D280E9E4600CE5929 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF824247F138EF3805950703 /* Pods-KarimTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +706,7 @@
 		};
 		E2BA8F6F280E9E4600CE5929 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77DEF2B3727F84715DF0ADDA /* Pods-KarimTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +731,7 @@
 		};
 		E2BA8F70280E9E4600CE5929 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B84A4CE8F845154BF32633 /* Pods-KarimTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +756,7 @@
 		};
 		E2BA8F72280E9E4600CE5929 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9859526B7B3A72A218773B60 /* Pods-KarimTask-KarimTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +779,7 @@
 		};
 		E2BA8F73280E9E4600CE5929 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7AA83C03A22FF6CEE8F8B49 /* Pods-KarimTask-KarimTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
